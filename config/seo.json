@@ -1,8 +1,8 @@
 {
   "siteMetadata": {
-    "title": "Next.js Starter Blog",
+    "title": "Demo Blog",
     "author": {
-      "name": "Jose Felix",
+      "name": "Jose Demo",
       "summary": "who works building clean user interfaces with React."
     },
     "description": "A blog created with Next.js and Tailwind.css",
