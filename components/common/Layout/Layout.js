@@ -5,6 +5,8 @@ import { useRouter } from "next/router";
 import { DarkModeSwitch } from "react-toggle-dark-mode";
 import { useTheme } from "next-themes";
 
+const titleString = 'Demo Blog'
+
 export function Layout({ children }) {
   return (
     <div className="w-full min-h-screen dark:bg-gray-700 dark:text-white">
@@ -69,7 +71,7 @@ const LargeTitle = () => (
           "dark:text-white"
         )}
       >
-        Next.Js Starter Blog
+        {titleString}
       </a>
     </Link>
   </h1>
@@ -84,7 +86,7 @@ const SmallTitle = () => (
           "dark:text-white"
         )}
       >
-        Next.Js Starter Blog
+        {titleString}
       </a>
     </Link>
   </h1>
